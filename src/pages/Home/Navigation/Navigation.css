@@ -1,6 +1,14 @@
+.navigation {
+    margin-top: 50px;
+}
 .nav-link a {
     text-decoration: none;
     margin: 5px;
     padding: 5px;
     color: white;
+}
+.nav-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }

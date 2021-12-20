@@ -1,0 +1,12 @@
+.projects {
+    margin: 10px 50px 10px 50px;
+    text-align: left;
+    padding: 10px;
+}
+.projects img {
+    margin: 0%;
+    width:  100%;
+}
+.my-projects {
+    font-size: 40px;
+}

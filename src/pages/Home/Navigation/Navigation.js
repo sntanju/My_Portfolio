@@ -6,23 +6,23 @@ import './Navigation.css';
 
 const Navigation = () => {
     return (
-        <div>
+        <div className="navigation">
             
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
                 <Container>
 
-                    <Navbar.Brand href="#home">Sanjida Nasrin</Navbar.Brand>
+                    <Navbar.Brand href="#home"><img className="nav-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXaqYVjv9FMRlgjQq8i-Kut6zE9DxfJyvFWgB9IlVr9vvGy1lC6xR4FmcZbn2LDuUECKo&usqp=CAU" alt="" /></Navbar.Brand>
+                    <Navbar.Brand href="#home"><b className="text-warning">Sanjida Nasrin Tanju</b></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
 
-                        <Nav className="me-auto">
+                        <Nav className="me-auto">  </Nav>
 
-                        </Nav>
                         <Nav className="nav-link">
-                        <NavLink to="/home">Home</NavLink>
-                        <NavLink to="/projects">Projects</NavLink>
-                        <NavLink to="/about">About</NavLink>
-                        <NavLink to="/contact">Contact</NavLink>
+                        <a href="#home"> <b>Home</b> </a>
+                        <a href="#about"> <b>About</b> </a>
+                        <a href="#projects"> <b>Projects</b> </a>
+                        <a href="#contact"> <b>Contact</b> </a>
                         
                         </Nav>
                         

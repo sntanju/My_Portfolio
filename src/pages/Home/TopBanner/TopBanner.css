@@ -4,3 +4,14 @@
     height: 400px;
     background-size: cover;
 }
+.topbanner a {
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.788);
+}
+.topbanner a:hover {
+    color: yellow;
+}
+.topbanner button:hover {
+    background-color: purple;
+    
+}

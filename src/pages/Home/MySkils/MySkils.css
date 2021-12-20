@@ -1,0 +1,10 @@
+.my-skills {
+    margin: 10px 50px 10px 50px;
+    padding: 10px; 
+}
+.my-skills img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+

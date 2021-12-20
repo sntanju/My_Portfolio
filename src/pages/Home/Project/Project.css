@@ -1,0 +1,22 @@
+.project {
+    margin: 20px;
+    box-shadow: 5px 5px 5px 5px gray;
+    width: 350px;
+    padding: 10px;
+}
+.project a {
+     text-decoration:  none;
+     color:floralwhite;
+}
+.project button {
+    background-color:forestgreen;
+    padding: 8px 20px 8px 20px;
+    margin: 8px;
+}
+.project a:hover {
+    color: yellow;
+}
+.project button:hover {
+    background-color: purple;
+    box-shadow: 2px 2px 2px 2px gray;
+}
